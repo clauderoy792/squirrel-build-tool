@@ -1,0 +1,830 @@
+﻿2020-07-16 11:10:33> Program: Starting Squirrel Updater: --releasify
+2020-07-16 11:10:33> Unhandled exception: Mono.Options.OptionException: Missing required value for option '--releasify'.
+   at Mono.Options.OptionValueCollection.AssertValid(Int32 index)
+   at Mono.Options.OptionSet.<>c__DisplayClass21_0.<Add>b__0(OptionValueCollection v)
+   at Mono.Options.OptionSet.ActionOption.OnParseComplete(OptionContext c)
+   at Mono.Options.Option.Invoke(OptionContext c)
+   at Mono.Options.OptionSet.Parse(IEnumerable`1 arguments)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-16 11:18:22> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-16 11:18:22> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 11:18:22> Program: Creating release package: C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-16 11:18:22> ReleasePackage: Creating release package: C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-16 11:18:24> ReleasePackage: Extracting dependent packages: []
+2020-07-16 11:18:24> ReleasePackage: Removing unnecessary data
+2020-07-16 11:18:24> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-16 11:18:25> Program: Building embedded zip file for Setup.exe
+2020-07-16 21:09:55> Program: Starting Squirrel Updater: --releasify OrganicWizard1.0.0
+2020-07-16 21:09:55> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 21:09:55> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'OrganicWizard1.0.0'.
+File name: 'OrganicWizard1.0.0'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-16 21:10:42> Program: Starting Squirrel Updater: --releasify OrganicWizard1.0.0.nupkg
+2020-07-16 21:10:42> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 21:10:42> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'OrganicWizard1.0.0.nupkg'.
+File name: 'OrganicWizard1.0.0.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-16 21:11:35> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-16 21:11:35> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 21:11:35> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'OrganicWizard.1.0.0.nupkg'.
+File name: 'OrganicWizard.1.0.0.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-16 21:13:40> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-16 21:13:40> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 21:13:40> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-16 21:13:40> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-16 21:13:41> ReleasePackage: Extracting dependent packages: []
+2020-07-16 21:13:41> ReleasePackage: Removing unnecessary data
+2020-07-16 21:13:41> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-16 21:13:42> Program: Building embedded zip file for Setup.exe
+2020-07-16 21:34:59> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.1.nupkg
+2020-07-16 21:34:59> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-16 21:34:59> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.1.nupkg
+2020-07-16 21:34:59> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.1.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.1-full.nupkg
+2020-07-16 21:35:01> ReleasePackage: Extracting dependent packages: []
+2020-07-16 21:35:01> ReleasePackage: Removing unnecessary data
+2020-07-16 21:35:01> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-16 21:35:02> DeltaPackageBuilder: Extracting .\Releases\OrganicWizard-1.0.0-full.nupkg and C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.1-full.nupkg into C:\Users\Claud\AppData\Local\SquirrelTemp\tempb
+2020-07-16 21:35:02> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-07-16 21:35:02> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-07-16 21:35:02> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-07-16 21:35:02> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-07-16 21:35:02> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.pdb not found in base package, marking as new
+2020-07-16 21:35:03> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard.exe
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\Organic-Wizard.exe.config hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard.pdb => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard.pdb
+2020-07-16 21:35:03> DeltaPackageBuilder: We really couldn't create a delta for Organic-Wizard.pdb: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+2020-07-16 21:35:03> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard_ExecutionStub.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard_ExecutionStub.exe
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\Shared.dll hasn't changed, writing dummy file
+2020-07-16 21:35:03> DeltaPackageBuilder: \lib\net45\Shared.pdb not found in base package, marking as new
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\Splat.pdb not found in base package, marking as new
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\Squirrel.pdb not found in base package, marking as new
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\Tesseract.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\x64\liblept1753.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\x64\libtesseract3052.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\x86\liblept1753.dll hasn't changed, writing dummy file
+2020-07-16 21:35:04> DeltaPackageBuilder: \lib\net45\x86\libtesseract3052.dll hasn't changed, writing dummy file
+2020-07-16 21:35:05> Program: Building embedded zip file for Setup.exe
+2020-07-17 05:33:06> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.2.nupkg
+2020-07-17 05:33:06> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 05:33:06> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'OrganicWizard.1.0.2.nupkg'.
+File name: 'OrganicWizard.1.0.2.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-17 05:33:20> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.2.nupkg
+2020-07-17 05:33:20> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 05:33:20> Program: Creating release package: C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard.1.0.2.nupkg
+2020-07-17 05:33:20> ReleasePackage: Creating release package: C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard.1.0.2.nupkg => C:\Git\organic-wizard\Organic-Wizard\Releases\OrganicWizard-1.0.2-full.nupkg
+2020-07-17 05:33:21> ReleasePackage: Extracting dependent packages: []
+2020-07-17 05:33:21> ReleasePackage: Removing unnecessary data
+2020-07-17 05:33:21> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 05:33:22> Program: Building embedded zip file for Setup.exe
+2020-07-17 07:19:09> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.3.nupkg
+2020-07-17 07:19:09> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 07:19:09> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'OrganicWizard.1.0.3.nupkg'.
+File name: 'OrganicWizard.1.0.3.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-17 07:19:51> Program: Starting Squirrel Updater: --releasify Organic-Wizard.1.0.3.nupkg
+2020-07-17 07:19:51> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 07:19:51> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.3.nupkg
+2020-07-17 07:19:51> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.3.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard-1.0.3-full.nupkg
+2020-07-17 07:19:52> ReleasePackage: Extracting dependent packages: []
+2020-07-17 07:19:52> ReleasePackage: Removing unnecessary data
+2020-07-17 07:19:52> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\Organic-Wizard.nuspec
+2020-07-17 07:19:53> DeltaPackageBuilder: Extracting .\Releases\OrganicWizard-1.0.2-full.nupkg and C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard-1.0.3-full.nupkg into C:\Users\Claud\AppData\Local\SquirrelTemp\tempb
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard.exe
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Organic-Wizard.exe.config hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard_ExecutionStub.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard_ExecutionStub.exe
+2020-07-17 07:19:54> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Shared.dll => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Shared.dll
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-07-17 07:19:54> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\Tesseract.dll hasn't changed, writing dummy file
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\x64\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\x64\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\x86\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:19:55> DeltaPackageBuilder: \lib\net45\x86\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:19:55> Program: Building embedded zip file for Setup.exe
+2020-07-17 07:19:57> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()<---
+
+2020-07-17 07:20:17> Program: Starting Squirrel Updater: --releasify Organic-Wizard.1.0.3.nupkg
+2020-07-17 07:20:17> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 07:20:17> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.3.nupkg
+2020-07-17 07:20:17> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.3.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard-1.0.3-full.nupkg
+2020-07-17 07:20:18> ReleasePackage: Extracting dependent packages: []
+2020-07-17 07:20:18> ReleasePackage: Removing unnecessary data
+2020-07-17 07:20:18> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\Organic-Wizard.nuspec
+2020-07-17 07:20:19> DeltaPackageBuilder: Extracting .\Releases\OrganicWizard-1.0.2-full.nupkg and C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard-1.0.3-full.nupkg into C:\Users\Claud\AppData\Local\SquirrelTemp\tempb
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard.exe
+2020-07-17 07:20:20> DeltaPackageBuilder: \lib\net45\Organic-Wizard.exe.config hasn't changed, writing dummy file
+2020-07-17 07:20:20> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard_ExecutionStub.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard_ExecutionStub.exe
+2020-07-17 07:20:21> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Shared.dll => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Shared.dll
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\Tesseract.dll hasn't changed, writing dummy file
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\x64\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\x64\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\x86\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:20:21> DeltaPackageBuilder: \lib\net45\x86\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:20:22> Program: Building embedded zip file for Setup.exe
+2020-07-17 07:20:23> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()<---
+
+2020-07-17 07:21:37> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.3.nupkg
+2020-07-17 07:21:37> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 07:21:37> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.3.nupkg
+2020-07-17 07:21:37> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.3.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.3-full.nupkg
+2020-07-17 07:21:38> ReleasePackage: Extracting dependent packages: []
+2020-07-17 07:21:38> ReleasePackage: Removing unnecessary data
+2020-07-17 07:21:38> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 07:21:39> DeltaPackageBuilder: Extracting .\Releases\OrganicWizard-1.0.2-full.nupkg and C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.3-full.nupkg into C:\Users\Claud\AppData\Local\SquirrelTemp\tempb
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-07-17 07:21:39> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard.exe
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\Organic-Wizard.exe.config hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Organic-Wizard_ExecutionStub.exe => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Organic-Wizard_ExecutionStub.exe
+2020-07-17 07:21:40> DeltaPackageBuilder: Delta patching C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\Shared.dll => C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\lib\net45\Shared.dll
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\Tesseract.dll hasn't changed, writing dummy file
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\x64\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\x64\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\x86\liblept1753.dll not found in base package, marking as new
+2020-07-17 07:21:40> DeltaPackageBuilder: \lib\net45\x86\libtesseract3052.dll not found in base package, marking as new
+2020-07-17 07:21:41> Program: Building embedded zip file for Setup.exe
+2020-07-17 07:23:35> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.3.nupkg
+2020-07-17 07:23:35> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 07:23:35> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.3.nupkg
+2020-07-17 07:23:35> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.3.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.3-full.nupkg
+2020-07-17 07:23:36> ReleasePackage: Extracting dependent packages: []
+2020-07-17 07:23:36> ReleasePackage: Removing unnecessary data
+2020-07-17 07:23:36> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 07:23:37> Program: Building embedded zip file for Setup.exe
+2020-07-17 13:44:46> Program: Starting Squirrel Updater: --releasify Organic-Wizard.1.0.0.nupkg
+2020-07-17 13:44:46> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 13:44:46> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.0.nupkg
+2020-07-17 13:44:46> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard.1.0.0.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\Organic-Wizard-1.0.0-full.nupkg
+2020-07-17 13:44:47> ReleasePackage: Extracting dependent packages: []
+2020-07-17 13:44:47> ReleasePackage: Removing unnecessary data
+2020-07-17 13:44:47> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\Organic-Wizard.nuspec
+2020-07-17 13:44:49> Program: Building embedded zip file for Setup.exe
+2020-07-17 13:44:51> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Failed to compile WiX template, command invoked was: 'candle.exe -nologo -ext WixNetFxExtension -out "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wixobj" "C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs"'
+
+Output was:
+Setup.wxs
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0108 : The Product/@Version attribute's value, '!(bind.FileVersion.Organic-Wizard.exe)', is not a valid version.  Legal version values should look like 'x.x.x.x' where x is an integer from 0 to 65534.
+C:\Git\Organic-Wizard\Organic-Wizard\Releases\Setup.wxs(2) : error CNDL0010 : The Product/@Version attribute was not found; it is required.
+   at Squirrel.Update.Program.<createMsiPackage>d__21.MoveNext()<---
+
+2020-07-17 13:46:39> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-17 13:46:39> Program: Bootstrapper EXE found at:C:\Git\organic-wizard\Organic-Wizard\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 13:46:39> Program: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-17 13:46:39> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\Organic-Wizard\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-17 13:46:41> ReleasePackage: Extracting dependent packages: []
+2020-07-17 13:46:41> ReleasePackage: Removing unnecessary data
+2020-07-17 13:46:41> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 13:46:42> Program: Building embedded zip file for Setup.exe
+2020-07-17 14:28:43> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-17 14:28:43> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 14:28:43> Program: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-17 14:28:43> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\src\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-17 14:28:44> ReleasePackage: Extracting dependent packages: []
+2020-07-17 14:28:44> ReleasePackage: Removing unnecessary data
+2020-07-17 14:28:44> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 14:28:45> Program: Building embedded zip file for Setup.exe
+2020-07-17 14:37:25> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-17 14:37:25> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-17 14:37:25> Program: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-17 14:37:25> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\src\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-17 14:37:26> ReleasePackage: Extracting dependent packages: []
+2020-07-17 14:37:26> ReleasePackage: Removing unnecessary data
+2020-07-17 14:37:26> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-17 14:37:27> Program: Building embedded zip file for Setup.exe
+2020-07-18 12:21:30> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-18 12:21:30> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 12:21:30> Program: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-18 12:21:30> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\src\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-18 12:21:30> ReleasePackage: Extracting dependent packages: []
+2020-07-18 12:21:30> ReleasePackage: Removing unnecessary data
+2020-07-18 12:21:30> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-18 12:21:31> Program: Building embedded zip file for Setup.exe
+2020-07-18 12:28:34> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-18 12:28:34> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 12:28:34> Program: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-18 12:28:34> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\src\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-18 12:28:35> ReleasePackage: Extracting dependent packages: []
+2020-07-18 12:28:35> ReleasePackage: Removing unnecessary data
+2020-07-18 12:28:35> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-18 12:28:36> Program: Building embedded zip file for Setup.exe
+2020-07-18 12:28:36> Program: Failed to update Setup.exe with new Zip file: System.Exception: Failed to write Zip to Setup.exe!
+
+Setup: C:\Git\Organic-Wizard\src\Releases\Setup.exe, Zip: C:\Users\Claud\AppData\Local\Temp\tmp470D.tmp
+Starting to read in Zip file!
+Updating Resource!
+Finished!
+Failed to update resource
+Usage: WriteZipToSetup [Setup.exe template] [Zip File]
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+2020-07-18 12:29:12> Program: Starting Squirrel Updater: --releasify OrganicWizard.1.0.0.nupkg
+2020-07-18 12:29:12> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 12:29:12> Program: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg
+2020-07-18 12:29:12> ReleasePackage: Creating release package: C:\Git\Organic-Wizard\src\Releases\OrganicWizard.1.0.0.nupkg => C:\Git\Organic-Wizard\src\Releases\OrganicWizard-1.0.0-full.nupkg
+2020-07-18 12:29:12> ReleasePackage: Extracting dependent packages: []
+2020-07-18 12:29:12> ReleasePackage: Removing unnecessary data
+2020-07-18 12:29:12> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\OrganicWizard.nuspec
+2020-07-18 12:29:13> Program: Building embedded zip file for Setup.exe
+2020-07-18 20:33:29> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:33:29> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:33:29> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'SquirrelWinnform.1.0.5.nupkg'.
+File name: 'SquirrelWinnform.1.0.5.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-18 20:36:28> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:36:28> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:36:28> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'SquirrelWinnform.1.0.5.nupkg'.
+File name: 'SquirrelWinnform.1.0.5.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2020-07-18 20:37:06> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:37:06> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:37:06> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:37:06> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:37:07> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:37:07> ReleasePackage: Removing unnecessary data
+2020-07-18 20:37:07> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:37:07> Program: Building embedded zip file for Setup.exe
+2020-07-18 20:40:18> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:40:18> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:40:18> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg
+2020-07-18 20:40:18> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:40:18> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:40:18> ReleasePackage: Removing unnecessary data
+2020-07-18 20:40:18> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:40:18> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Utility.<>c__DisplayClass7_0.<CopyToAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<CopyToAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<createExecutableStubForExe>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Utility.<>c__DisplayClass7_0.<CopyToAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<CopyToAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<createExecutableStubForExe>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 20:40:53> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:40:53> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:40:53> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg
+2020-07-18 20:40:53> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:40:53> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:40:53> ReleasePackage: Removing unnecessary data
+2020-07-18 20:40:53> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:40:54> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg
+2020-07-18 20:40:54> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:40:54> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:40:54> ReleasePackage: Removing unnecessary data
+2020-07-18 20:40:54> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:40:54> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 20:43:42> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:43:43> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:43:43> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg
+2020-07-18 20:43:43> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:43:43> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:43:43> ReleasePackage: Removing unnecessary data
+2020-07-18 20:43:43> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:43:44> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg
+2020-07-18 20:43:44> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:43:44> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:43:44> ReleasePackage: Removing unnecessary data
+2020-07-18 20:43:44> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:43:45> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg
+2020-07-18 20:43:45> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:43:45> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:43:45> ReleasePackage: Removing unnecessary data
+2020-07-18 20:43:45> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:43:45> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 20:44:49> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 20:44:49> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 20:44:49> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg
+2020-07-18 20:44:49> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.0.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:44:50> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:44:50> ReleasePackage: Removing unnecessary data
+2020-07-18 20:44:50> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:44:50> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg
+2020-07-18 20:44:50> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 20:44:50> ReleasePackage: Extracting dependent packages: []
+2020-07-18 20:44:50> ReleasePackage: Removing unnecessary data
+2020-07-18 20:44:50> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 20:44:51> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 21:20:24> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:20:24> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:20:24> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:20:24> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:20:25> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:20:25> ReleasePackage: Removing unnecessary data
+2020-07-18 21:20:25> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:20:25> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:21:46> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:21:46> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:21:46> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:21:46> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:21:47> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:21:47> ReleasePackage: Removing unnecessary data
+2020-07-18 21:21:47> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:21:47> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:25:55> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:25:55> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:25:55> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:25:55> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:25:56> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:25:56> ReleasePackage: Removing unnecessary data
+2020-07-18 21:25:56> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:25:57> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:26:20> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:26:20> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:26:20> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:26:21> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:26:21> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:26:21> ReleasePackage: Removing unnecessary data
+2020-07-18 21:26:21> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:26:22> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:26:54> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:26:54> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:26:54> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:26:54> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:26:54> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:26:54> ReleasePackage: Removing unnecessary data
+2020-07-18 21:26:54> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:26:55> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:27:41> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:27:41> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:27:41> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:27:41> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:27:42> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:27:42> ReleasePackage: Removing unnecessary data
+2020-07-18 21:27:42> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:27:42> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:34:08> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:34:08> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:34:08> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:34:08> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:34:09> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:34:09> ReleasePackage: Removing unnecessary data
+2020-07-18 21:34:09> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:34:10> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:34:32> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:34:32> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:34:32> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:34:32> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:34:32> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:34:32> ReleasePackage: Removing unnecessary data
+2020-07-18 21:34:32> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:34:33> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:35:12> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:35:12> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:35:12> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:35:12> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:35:13> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:35:13> ReleasePackage: Removing unnecessary data
+2020-07-18 21:35:13> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:35:13> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:37:04> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:37:04> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:37:04> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:37:05> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:37:05> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:37:05> ReleasePackage: Removing unnecessary data
+2020-07-18 21:37:05> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:37:06> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:38:23> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:38:23> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:38:23> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:38:23> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:38:24> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:38:24> ReleasePackage: Removing unnecessary data
+2020-07-18 21:38:24> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:38:24> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:39:37> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:39:37> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:39:37> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:39:37> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:39:38> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:39:38> ReleasePackage: Removing unnecessary data
+2020-07-18 21:39:38> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:39:38> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:41:11> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:41:11> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:41:11> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:41:12> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform.1.0.5.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:41:12> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:41:12> ReleasePackage: Removing unnecessary data
+2020-07-18 21:41:12> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:41:13> Program: Building embedded zip file for Setup.exe
+2020-07-18 21:44:02> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 21:44:02> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 21:44:02> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg
+2020-07-18 21:44:03> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:44:03> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:44:03> ReleasePackage: Removing unnecessary data
+2020-07-18 21:44:03> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:44:04> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg
+2020-07-18 21:44:04> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 21:44:04> ReleasePackage: Extracting dependent packages: []
+2020-07-18 21:44:04> ReleasePackage: Removing unnecessary data
+2020-07-18 21:44:04> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 21:44:04> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 22:00:53> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 22:00:53> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 22:00:53> Unhandled exception: System.IO.IOException: The process cannot access the file 'C:\Code Projects\SquirrelWin2020-07-18 22:00:53> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 22:00:53> ReleasePackage: Extracting dependent packages: []
+2020-07-18 22:00:53> ReleasePackage: Removing unnecessary data
+2020-07-18 22:00:53> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 22:00:54> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg
+2020-07-18 22:00:54> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 22:00:54> ReleasePackage: Extracting dependent packages: []
+2020-07-18 22:00:54> ReleasePackage: Removing unnecessary data
+2020-07-18 22:00:54> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 22:00:54> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
+2020-07-18 22:03:04> Program: Starting Squirrel Updater: --releasify SquirrelWinnform.1.0.5.nupkg
+2020-07-18 22:03:04> Program: Bootstrapper EXE found at:C:\Git\Organic-Wizard\src\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-07-18 22:03:04> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg
+2020-07-18 22:03:04> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.2.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 22:03:04> ReleasePackage: Extracting dependent packages: []
+2020-07-18 22:03:04> ReleasePackage: Removing unnecessary data
+2020-07-18 22:03:04> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempb\SquirrelWinnform.nuspec
+2020-07-18 22:03:05> Program: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg
+2020-07-18 22:03:05> ReleasePackage: Creating release package: C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.3.nupkg => C:\Code Projects\SquirrelWinnform\Releases\SquirrelWinnform-1.0.5-full.nupkg
+2020-07-18 22:03:05> ReleasePackage: Extracting dependent packages: []
+2020-07-18 22:03:05> ReleasePackage: Removing unnecessary data
+2020-07-18 22:03:05> ReleasePackage: No release notes found in C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\SquirrelWinnform.nuspec
+2020-07-18 22:03:05> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Squirrel.Update.Program.<>c__DisplayClass10_0.<Releasify>b__7(String pkgPath)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\Claud\AppData\Local\SquirrelTemp\tempa\lib\net45\SquirrelWinnform_ExecutionStub.exe' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Squirrel.Utility.ExecutableUsesWin32Subsystem(String peImage)
+   at Squirrel.Update.Program.<>c.<Releasify>b__10_11(FileInfo x)
+   at System.Linq.Enumerable.<>c__DisplayClass6_0`1.<CombinePredicates>b__0(TSource x)
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk_Buffered(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerable.GrabChunk(KeyValuePair`2[] destArray, Int32 requestedChunkSize, Int32& actualNumElementsGrabbed)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionerForIEnumerable`1.InternalPartitionEnumerator.GrabNextChunk(Int32 requestedChunkSize)
+   at System.Collections.Concurrent.Partitioner.DynamicPartitionEnumerator_Abstract`2.MoveNext()
+   at System.Collections.Concurrent.OrderablePartitioner`1.EnumeratorDropIndices.MoveNext()
+   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()<---
+
